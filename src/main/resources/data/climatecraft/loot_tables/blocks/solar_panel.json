@@ -11,7 +11,7 @@
       ],
       "conditions": [
         {
-          "condition": ""
+          "condition": "minecraft:survives_explosion"
         }
       ]
     }

@@ -4,9 +4,9 @@
   "version": "${version}",
 
   "name": "Climate Craft",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Add climate consequences to your actions in Minecraft!",
   "authors": [
-    "Me!"
+    "Tanner Bart"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",

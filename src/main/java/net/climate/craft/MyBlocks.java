@@ -18,7 +18,7 @@ public class MyBlocks {
     public static final Block WATER_CLEANER =
             register("water_cleaner", new Block(FabricBlockSettings.of(Material.METAL).build()));
 
-    // Create a new item in the registry
+    // Create a new block and block item in the registry
     public static Block register(String name, Block block) {
         Registry.register(Registry.BLOCK, new Identifier("climatecraft", name), block);
         Registry.register(Registry.ITEM, new Identifier("climatecraft", name),
