@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#",
+    "#R#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "W": {
+      "item": "minecraft:water_bucket",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "climatecraft:thermometer",
+    "count": 1
+  }
+}

@@ -10,13 +10,22 @@ import net.minecraft.item.ItemGroup;
 
 public class Items {
 
+    // Item Group to hold items from mod
     public static final ItemGroup CLIMATE_GROUP =
             FabricItemGroupBuilder.build(new Identifier("climatecraft", "items"),
-                    () -> new ItemStack(Blocks.COBBLESTONE));
+                    () -> new ItemStack(Blocks.COAL_ORE));
 
     // List of items
     public static final Item THERMOMETER =
             register("thermometer", new Item(new Item.Settings().group(Items.CLIMATE_GROUP)));
+    public static final Item PH_TESTER =
+            register("ph_tester", new Item(new Item.Settings().group(Items.CLIMATE_GROUP)));
+    public static final Item AIR_TESTER =
+            register("air_tester", new Item(new Item.Settings().group(Items.CLIMATE_GROUP)));
+    public static final Item AIR_SCRUBBER =
+            register("air_scrubber", new Item(new Item.Settings().group(Items.CLIMATE_GROUP)));
+    public static final Item WATER_CLEANER =
+            register("water_cleaner", new Item(new Item.Settings().group(Items.CLIMATE_GROUP)));
     public static final Item SOLAR_PANEL =
             register("solar_panel", new Item(new Item.Settings().group(Items.CLIMATE_GROUP)));
 
