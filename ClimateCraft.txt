@@ -1,0 +1,16 @@
+ClimateCraft:
+
+- Raise temperatures globally on using coal, cutting down trees
+- Somehow figure out wastfulness
+- For every tree the player plants, carbon rates go down slightly
+- Prioritize plants over meat from animals
+- Plastic?
+
+- Items:
+	- Thermometer
+	- PH tester for water
+	- Carbon Dioxide tester for air
+	- Solar Panels
+	- Carbon Scrubber?
+	- Water Cleaner?
+	- Reusable tools?
