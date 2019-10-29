@@ -10,17 +10,13 @@ import net.minecraft.item.ItemGroup;
 
 public class MyItems {
 
-    // List of items
+    // List of Items
     public static final Item THERMOMETER =
             register("thermometer", new Item(new Item.Settings().group(ClimateCraft.CLIMATE_GROUP)));
     public static final Item PH_TESTER =
             register("ph_tester", new Item(new Item.Settings().group(ClimateCraft.CLIMATE_GROUP)));
     public static final Item AIR_TESTER =
             register("air_tester", new Item(new Item.Settings().group(ClimateCraft.CLIMATE_GROUP)));
-    public static final Item AIR_SCRUBBER =
-            register("air_scrubber", new Item(new Item.Settings().group(ClimateCraft.CLIMATE_GROUP)));
-    public static final Item WATER_CLEANER =
-            register("water_cleaner", new Item(new Item.Settings().group(ClimateCraft.CLIMATE_GROUP)));
 
     // Create a new item in the registry
     public static Item register(String name, Item item) {

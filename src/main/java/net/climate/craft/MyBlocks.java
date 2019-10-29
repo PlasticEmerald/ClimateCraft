@@ -10,8 +10,13 @@ import net.minecraft.util.registry.Registry;
 
 public class MyBlocks {
 
+    // List of Blocks
     public static final Block SOLAR_PANEL =
             register("solar_panel", new Block(FabricBlockSettings.of(Material.METAL).build()));
+    public static final Block AIR_SCRUBBER =
+            register("air_scrubber", new Block(FabricBlockSettings.of(Material.METAL).build()));
+    public static final Block WATER_CLEANER =
+            register("water_cleaner", new Block(FabricBlockSettings.of(Material.METAL).build()));
 
     // Create a new item in the registry
     public static Block register(String name, Block block) {
