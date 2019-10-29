@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "climatecraft",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Climate Craft",
+  "description": "Add climate change effects to Minecraft to see how your actions have consequences!",
   "authors": [
-    "Me!"
+    "Tanner Bart"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,12 +19,9 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.climate.craft.ClimateCraft"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.4.0",
