@@ -1,7 +1,7 @@
 ClimateCraft:
 
 - Raise temperatures globally on using coal, cutting down trees
-- Somehow figure out wastfulness
+- Somehow figure out wastefulness
 - For every tree the player plants, carbon rates go down slightly
 - Prioritize plants over meat from animals
 - Plastic?
@@ -10,7 +10,24 @@ ClimateCraft:
 	- Thermometer
 	- PH tester for water
 	- Carbon Dioxide tester for air
-	- Solar Panels
-	- Carbon Scrubber?
-	- Water Cleaner?
-	- Reusable tools?
+	- Solar Cell
+	- Bees?
+
+- Blocks:
+    - Solar Panels
+        - made using solar cell
+        - can be used to power electric furnaces and such
+    -Solar Battery
+        - used to store power during the night from Solar Panels
+    - Electric Furnace
+        - powered by connecting to an electric source
+    - Wiring
+        - used to connect electric source to battery or appliance
+    - Air Scrubber
+        - powered by electricity
+        - needs a filter to be able to run
+            - filter slowly goes away after use
+    - Water Cleaner
+        - powered by electricity
+        - needs a filter to be able to run
+            -filter slowly goes away after use
