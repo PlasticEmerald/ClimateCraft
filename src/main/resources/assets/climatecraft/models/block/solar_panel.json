@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "top": "climatecraft:block/solar_panel_top",
+    "side": "climatecraft:block/solar_panel_side",
+    "bottom":"climatecraft:block/solar_panel_side"
+  }
+}
