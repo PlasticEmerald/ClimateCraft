@@ -6,6 +6,10 @@ ClimateCraft:
 - Prioritize plants over meat from animals
 - Plastic?
 
+- Carbon Emissions:
+    - create a file on startup / open if it already exists
+    - store the info needed to be able to set the carbon count for items
+
 - Items:
 	- Thermometer
 	- PH tester for water
