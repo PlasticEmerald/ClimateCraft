@@ -50,5 +50,6 @@ public class ClimateCraft implements ModInitializer {
 
 		MyItems.init();
 		MyBlocks.init();
+		MyEntities.init();
 	}
 }

@@ -1,6 +1,7 @@
 package net.climate.craft;
 
 import net.climate.craft.blocks.AirScrubberBlock;
+import net.climate.craft.blocks.ElectricFurnace;
 import net.climate.craft.blocks.SolarPanelBlock;
 import net.climate.craft.blocks.WaterCleanerBlock;
 import net.fabricmc.fabric.api.block.FabricBlockSettings;
@@ -14,12 +15,10 @@ import net.minecraft.util.registry.Registry;
 public class MyBlocks {
 
     // List of Blocks
-    public static final Block SOLAR_PANEL =
-            register("solar_panel", new SolarPanelBlock());
-    public static final Block AIR_SCRUBBER =
-            register("air_scrubber", new AirScrubberBlock());
-    public static final Block WATER_CLEANER =
-            register("water_cleaner", new WaterCleanerBlock());
+    public static final Block SOLAR_PANEL = register("solar_panel", new SolarPanelBlock());
+    public static final Block AIR_SCRUBBER = register("air_scrubber", new AirScrubberBlock());
+    public static final Block WATER_CLEANER = register("water_cleaner", new WaterCleanerBlock());
+    public static final Block ELECTRIC_FURNACE = register("electric_furnace", new ElectricFurnace());
 
     // Create a new block and block item in the registry
     public static Block register(String name, Block block) {
